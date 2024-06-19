@@ -4,7 +4,7 @@ import Circle from '../../assets/circle.png';
 import Cross from '../../assets/cross.png';
 
 function TicTacToe() {
-    let [data, setData] = useState(["", "", "", "", "", "", "", "", ""]);
+    let [data, setData] = useState( ["", "", "", "", "", "", "", "", ""] );
     let [count, setCount] = useState(0);
     let [lock, setLock] = useState(false);
     let titleRef = useRef(null);
